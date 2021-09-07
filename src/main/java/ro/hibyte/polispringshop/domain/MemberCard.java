@@ -10,18 +10,12 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class AwayShirt {
+public class MemberCard {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotNull
-    private String ModelName;
-
-    @NotNull
-    private ShirtSize size;
-
-    //todo: add list of owners
-
+    private CardType cardType;
 }

@@ -17,7 +17,7 @@ public class HomeShirt {
     private Long id;
 
     @NotNull
-    private String name;
+    private String ModelName;
 
     @NotNull
     private ShirtSize size;
