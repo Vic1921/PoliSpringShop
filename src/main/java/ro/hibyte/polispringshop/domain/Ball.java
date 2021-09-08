@@ -21,6 +21,9 @@ public class Ball {
     private Long id;
 
     @NotNull
+    private double price;
+
+    @NotNull
     private String name;
 
     @NotNull

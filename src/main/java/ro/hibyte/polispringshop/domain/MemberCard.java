@@ -2,6 +2,7 @@ package ro.hibyte.polispringshop.domain;
 
 import com.sun.istack.NotNull;
 import lombok.Data;
+import ro.hibyte.polispringshop.domain.enums.CardType;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,6 +16,9 @@ public class MemberCard {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotNull
+    private double price;
 
     @NotNull
     private CardType cardType;
