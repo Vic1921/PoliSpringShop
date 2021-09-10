@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import ro.hibyte.polispringshop.domain.HomeShirt;
 
 @Repository
-public interface HomeShortRepository extends CrudRepository<HomeShirt, Long> {
+public interface HomeShirtRepository extends CrudRepository<HomeShirt, Long> {
 }

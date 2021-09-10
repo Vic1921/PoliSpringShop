@@ -1,10 +1,11 @@
 package ro.hibyte.polispringshop.bootstrap;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import ro.hibyte.polispringshop.domain.*;
 import ro.hibyte.polispringshop.domain.enums.CardType;
+import ro.hibyte.polispringshop.domain.enums.ShirtSize;
 import ro.hibyte.polispringshop.repositories.*;
 
 import java.time.LocalDate;
@@ -12,7 +13,7 @@ import java.util.UUID;
 
 import static ro.hibyte.polispringshop.domain.enums.ShirtSize.*;
 
-
+/*
 @Component
 public class Bootstrap implements CommandLineRunner {
 
@@ -22,7 +23,6 @@ public class Bootstrap implements CommandLineRunner {
     private MemberCardRepository memberCardRepository;
     private UserRepsitory userRepsitory;
 
-    @Autowired
     public Bootstrap(AwayShirtRepository awayShirtRepository, HomeShortRepository homeShortRepository,
                      BallRepository ballRepository, MemberCardRepository memberCardRepository,
                      UserRepsitory userRepsitory) {
@@ -80,3 +80,6 @@ public class Bootstrap implements CommandLineRunner {
 
     }
 }
+
+*/
+

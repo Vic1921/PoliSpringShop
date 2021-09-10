@@ -25,7 +25,7 @@ public class AwayShirt {
     private double price;
 
     @NotNull
-    private String ModelName;
+    private String modelName;
 
     @NotNull
     private ShirtSize size;
