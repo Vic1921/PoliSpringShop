@@ -12,5 +12,4 @@ public class BallDTO {
     private double price;
     private String name;
     private int size;
-
 }
